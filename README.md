@@ -48,7 +48,7 @@ ggmm crud create user --template user
 
 This will create a 'user' model and by telling it you want to use the 'user' template, it will set that model up to be used for login and user management.
 
-## Example commands to create first app
+### Example commands to create first app
 
 ````
 ggmm app create userCrud --dbu username --dbp password --dbname userCrud
