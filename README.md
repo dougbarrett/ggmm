@@ -57,3 +57,21 @@ ggmm crud create user --template user
 ````
 
 Replace 'username' and 'password' with your database login credentials, this will override the default settings
+
+### TODO
+
+For v1
+
+- Create model handler generators
+- Create controller handler generators
+- Create normal-crud handler generators
+- Add tests
+- Improve documentation on using ggmm and how to use the generated code
+
+For v1.2
+
+- Add adons: stripe payments, oauth.io support, mailgun support
+
+For v2
+
+- Open up ability to use more than just martini (gin, gin-gonic, gorilla mux, standard net/http lib)
