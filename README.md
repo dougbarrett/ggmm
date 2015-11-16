@@ -53,7 +53,7 @@ This will create a 'user' model and by telling it you want to use the 'user' tem
 ````
 ggmm app create userCrud --dbu username --dbp password --dbname userCrud
 cd userCrud
-# ggmm crud create user --template user
+ggmm crud create user --template user
 ````
 
 Replace 'username' and 'password' with your database login credentials, this will override the default settings
